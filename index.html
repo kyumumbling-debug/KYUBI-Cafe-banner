@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=834, initial-scale=1.0">
-  <title>규의 규시렁 대문</title>
+  <title>규비 대문</title>
   <style>
     body {
       margin: 0;
@@ -18,7 +18,7 @@
       position: relative;
       width: 834px;
       height: 1061px;
-      background-image: url('https://raw.githubusercontent.com/kyumumbling-debug/KYUBI-Cafe-banner/main/카페%20대문%20(수정).png');
+      background-image: url('https://raw.githubusercontent.com/kyumumbling-debug/KYUBI-Cafe-banner/main/규비%20카페%20대문%20.png');
       background-size: cover;
       background-position: center;
     }
@@ -26,10 +26,10 @@
     /* 유튜브 영상 (60px 아래로 이동) */
     .youtube-frame {
       position: absolute;
-      left: 132px;
-      top: 640px; /* 기존 585 → +60 */
-      width: 560px;
-      height: 275px;
+      left: 95px;
+      top: 470px; /* 기존 585 → +60 */
+      width: 645px;
+      height: 360px;
       border: 3px solid #b293ff;
       border-radius: 12px;
       overflow: hidden;
@@ -44,15 +44,13 @@
       z-index: 3;
     }
 
-    /* 상단 줄 (좌상단 치지직 / 중앙상단 X / 우상단 팬심) */
-    .chzzk { left: 440px; top: 70px; width: 70px; height: 110px; } /* 치지직 */
-    .x { left: 565px; top: 70px; width: 70px; height: 110px; }     /* X(트윗) */
-    .fansim { left: 683px; top: 70px; width: 70px; height: 110px; } /* 팬심 */
+    /* 상단 줄 (좌상단 유튜브 / 우상단 치지직 /) */
+    .youtube { left: 150px; top: 130px; width: 140px; height: 140px; } /* 유튜브 */
+    .chzzk { left: 540px; top: 130px; width: 140px; height: 140px; }     /* 치지직 */
 
-    /* 하단 줄 (좌하단 유튜브 / 중앙하단 다시보기 / 우하단 팬심M) */
-    .youtube { left: 440px; top: 200px; width: 70px; height: 110px; } /* 유튜브 */
-    .replay { left: 565px; top: 200px; width: 70px; height: 110px; } /* 다시보기 */
-    .fansimm { left: 683px; top: 200px; width: 70px; height: 110px; } /* 팬심M */
+    /* 하단 줄 (좌하단 X / 우하단 다시보기 ) */
+    .x { left: 150px; top: 310px; width: 140px; height: 140px; } /* X(트윗) */
+    .replay { left: 540px; top: 310px; width: 140px; height: 140px; } /* 다시보기 */
   </style>
 </head>
 <body>
@@ -67,11 +65,9 @@
     <!-- 클릭 가능한 영역들 -->
     <a class="hotspot chzzk" href="https://chzzk.naver.com/28cbc9a7f252b4bccf6fc479caca686e" target="_blank"></a>
     <a class="hotspot x" href="https://x.com/kyumumbling" target="_blank"></a>
-    <a class="hotspot fansim" href="https://fancim.me/celeb/profile.aspx?cu_id=kyumumbling" target="_blank"></a>
 
     <a class="hotspot youtube" href="https://www.youtube.com/channel/UCAjwb0NQKBFpUtQZKDyH_eg" target="_blank"></a>
     <a class="hotspot replay" href="https://www.youtube.com/@Kyumumbling" target="_blank"></a>
-    <a class="hotspot fansimm" href="https://fancimm.com/profile/141201" target="_blank"></a>
   </div>
 </body>
 </html>
